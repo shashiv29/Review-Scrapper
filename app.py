@@ -5,7 +5,7 @@ from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-import pymongo
+#import pymongo
 
 app = Flask(__name__)  # initialising the flask app with the name 'app'
 
