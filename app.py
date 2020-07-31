@@ -40,10 +40,10 @@ def index():
                 commentboxes = prod_html.find_all('div', {'class': "_3nrCtb"}) # finding the HTML section containing the customer comments
 
                 table = db[searchString] # creating a collection with the same name as search string. Tables and Collections are analogous.
-                #filename = searchString+".csv" #  filename to save the details
-                #fw = open(filename, "w") # creating a local file to save the details
-                #headers = "Product, Customer Name, Rating, Heading, Comment \n" # providing the heading of the columns
-                #fw.write(headers) # writing first the headers to file
+                filename = searchString+".csv" #  filename to save the details
+                fw = open(filename, "w") # creating a local file to save the details
+                headers = "Product, Customer Name, Rating, Heading, Comment \n" # providing the heading of the columns
+                fw.write(headers) # writing first the headers to file
                 reviews = [] # initializing an empty list for reviews
                 #  iterating over the comment section to get the details of customer and their comments
                 for commentbox in commentboxes:
