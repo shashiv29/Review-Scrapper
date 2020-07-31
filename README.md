@@ -30,6 +30,6 @@ Other examples of the applications of web scrapping are:
 ___
 
 ![output](2.png)
->>
-[website](https://shashikant-review-scrappers.herokuapp.com/)
+---
+>> [Website link](https://shashikant-review-scrappers.herokuapp.com/)
  
