@@ -80,4 +80,4 @@ def index():
     else:
         return render_template('index.html')
 if __name__ == "__main__":
-    app.run(port=8000,debug=True) # running the app on the local machine on port 8000
+    app.run(debug=True) # running the app on the local machine on port 8000
