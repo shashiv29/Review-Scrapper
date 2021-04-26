@@ -31,5 +31,5 @@ ___
 
 ![output](2.png)
 ---
->> [Website link](https://shashikant-review-scrappers.herokuapp.com/)
+>> [Website link](https://review-scrappers.herokuapp.com/)
  
